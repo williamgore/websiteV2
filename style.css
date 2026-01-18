@@ -1,0 +1,122 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.headerimg {
+    background-color: whitesmoke;
+    height: 250px;
+}
+
+.headerimg img {
+    width: auto;
+    z-index: -1;
+    max-width: 100vw;
+    min-height: 250px;
+}
+
+.main {
+    display: flex;
+    min-height: 500px;
+    flex-direction: row;
+    height:max-content;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+    flex-grow: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width: 100px;
+}
+
+.sidebuttons {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionButton {
+    padding:10px;
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transition: 500ms;
+    background-color: #dfdfdf;
+}
+
+.sectionButton:hover{
+    background-color: #d16934;
+    color:white;
+    cursor: pointer;
+}
+
+.content {
+    background-color: whitesmoke;
+    flex-grow: 9;
+    width: 40vw;
+}
+
+.title {
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 10vw;
+    max-width: 100vw;
+}
+
+.titletext {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.titleimg img {
+    border: 5px solid #c8c8c8;
+}
+
+.h2 {
+    color:black
+}
+.h1 {
+    color:white
+}
+
+.contentBox {
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+
+.contentBody {
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    margin: 30px;
+}
+
+.imgLinksDiv img{
+    width:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imgLinksDiv a{
+    text-decoration: none;
+}
+
+p {
+    font-size: larger;
+    line-height: 2;
+}
