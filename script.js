@@ -3,7 +3,7 @@ function setHome() {
     document.getElementById("contentHeader").innerHTML =`<h1>Who I am</h1>`
     document.getElementById("contentBody").innerHTML = `
     <p>
-    My first introduction to programming was making little games in Scratch in middle school. Later in early highschool my brother taught me some Java and I built a little Zork type text based game. After highschool and completing IB Computer Science, I started university doing Biology during COVID. Online school wasn't for me so I took a gap year and switched to CS when I returned to school in 2022. Since then I've been on my academic come back, completing my statistics minor and battling waitlists to get into all my CS courses. With a little over a year left, I'm eager to start working and applying my skills. I love working in groups and coming up with interesting and unique ideas for solving problems. There's nothing more satisfying than fixing a problem with code. 
+    
     </p>
     `
 }
