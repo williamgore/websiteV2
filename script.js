@@ -39,10 +39,8 @@ function setProj() {
             </h2>
             
             <p>
-                    I put this website together as a way to familiarize myself with HTML and CSS as I had never had any experience
-                in either language prior. I wanted to challenge myself to not use any JS and rely solely on new skills to make everything work.
-                It went through a couple iterations before I found a style I liked. In the future I plan on updating it radically with a few new
-                ideas, but until then it's a good spot to put my resumé.
+                    This website has gone through a number of iterations, all of which are available on my GitHub. Originally being purely html and CSS, I improved it iteratively to its current state. 
+                    Through this process I was able to improve my front-end abilities and improve my sense of style in web development.
             </p>
 
         </section>
