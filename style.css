@@ -112,8 +112,15 @@ body {
     margin-right: 50px;
 }
 
-.imgLinksDiv a{
+a{
     text-decoration: none;
+    color:black;
+    transition: 500ms;
+}
+a :hover{
+    text-decoration: none;
+    color: #d16934;
+    cursor: pointer;
 }
 
 p {

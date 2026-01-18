@@ -17,30 +17,52 @@ function setProj() {
             my recent work 
         </h1>
 
-
-        <section class = "body">
-
-            <h2>
-                Python Weather Data Project
-            </h2>
-            
-            <p>
-                    This was my first experience writing in Python. I coded this up as an easy way to track weather trends as thats something that interests me.
-                Learning the Python syntax was a headache at first but once I got used to it I realised how powerful it can be.
-                Since then I've used python for playing around with distributed systems and sockets.
-            </p>
-
-        </section>
         
         <section class = "body">
 
-            <h2>
-                This Website
-            </h2>
+            <a href="https://github.com/williamgore" target="_blank">
+                <h2>
+                    This Website
+                </h2>
+            </a>
+            
             
             <p>
                     This website has gone through a number of iterations, all of which are available on my GitHub. Originally being purely html and CSS, I improved it iteratively to its current state. 
                     Through this process I was able to improve my front-end abilities and improve my sense of style in web development.
+            </p>
+
+        </section>
+
+        <section class = "body">
+
+
+        <a href="https://github.com/williamgore/FastPass" target="_blank">
+            <h2>
+                Python FastPass Implementation
+            </h2>
+        </a>
+            
+            <p>
+                My goal with this project was to replicate the original Disney FastPass system. The implementation is comprised of two main components, a client, and a server that interacts with a locally hosted database.
+                Upon receiving a request, through stdin, the client sends a message via TCP to the server with the guests information. The server then queries the database to validate the guest information and determine whether or not a 
+                FastPass should be distributed. If a FastPass is allowed, the server will send an OK message back to the client. Upon successful distribution of the FastPass, the client sends another message to the server so the database can be updated.
+            </p>
+
+        </section>
+
+        <section class = "body">
+
+            <a href="https://github.com/williamgore/weatherDataPullV1" target="_blank">
+                <h2>
+                    Python Weather Data Project
+                </h2>
+            </a>
+
+            <p>
+                    This was my first experience writing in Python. I coded this up as an easy way to track weather trends as thats something that interests me.
+                Learning the Python syntax was a headache at first but once I got used to it I realised how powerful it can be.
+                Since then I've used python for playing around with distributed systems and sockets.
             </p>
 
         </section>
