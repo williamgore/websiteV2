@@ -213,6 +213,7 @@ function setMobile() {
     document.getElementById("title").style.marginLeft = 10 + "px"
 
     document.getElementById("contentBox").style.marginLeft = 20 + "px"
+    document.getElementById("contentBox").style.marginTop = 60 + "px"
 
     document.getElementById("image").style.width = 100 + "px"
     document.getElementById("title").style.alignItems = "center"
@@ -280,7 +281,7 @@ function removeTitle(s, title, deleteTime) {
 
 ////////////////////////////////////////////////////////////
 
-if(window.mobileCheck()) {
+if(!window.mobileCheck()) {
     setMobile()
 }
 
