@@ -37,6 +37,7 @@ body {
 
 .sidebuttons {
     position: fixed;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     color: #000;
@@ -51,6 +52,7 @@ body {
     border: none;
     transition: 500ms;
     background-color: #dfdfdf;
+    color: #000;
 }
 
 .sectionButton:hover{
@@ -62,7 +64,6 @@ body {
 .content {
     background-color: whitesmoke;
     flex-grow: 9;
-    width: 40vw;
 }
 
 .title {
@@ -92,7 +93,7 @@ body {
 
 .contentBox {
     margin-top: 150px;
-    margin-left: 10px;
+    margin-left: 150px;
     margin-right: 50px;
     
 }

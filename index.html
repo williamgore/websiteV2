@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class = "title">
+        <div class = "title" id = "title">
             <div class = "titleimg">
                 <img src = "src/imgs/me.jpeg" width = 200px>
             </div>
@@ -40,17 +40,7 @@
 
         <div class = "main" id = "main">
 
-            <div class="sidebar">
-                
-            </div>
-
-            <div class="sidebuttons" id="sidebuttons">
-                <button class = "button sectionButton" onclick="setHome()"><i class="fa-solid fa-house"style="font-size:20px;"></i></button>
-                <button class = "button sectionButton" onclick="setResume()"><i class="fa-solid fa-file" style="font-size:20px;"></i></button>
-                <button class = "button sectionButton" onclick="setProj()"><i class="fa-solid fa-screwdriver-wrench" style="font-size:20px;"></i></button>
-            </div>
-
-            <div class="content" >
+            <div class="content" id = "content">
                 
                 <div class = "contentBox" id="contentBox">
                     <div class = "contentHeader" id ="contentHeader">
@@ -62,19 +52,24 @@
                 </div>
             </div>
         </div>
-
-        <div class="footer">
-            <div class = "imgLinksDiv">
-                <a href="https://github.com/williamgore" target="_blank">
-                    <img src="src/imgs/gitIcon.png" alt="Git Icon" class="imglink">
-                </a>
-                <a href="https://www.linkedin.com/in/william-gore-625270200/" target="_blank">
-                    <img src="src/imgs/linkedInIcon.png" alt="LinkedIn Icon" class="imglink">
-                </a>
-            </div>
-        </div>
-
     </body>
+
+    <div class="footer" id = "footer">
+        <div class = "imgLinksDiv">
+            <a href="https://github.com/williamgore" target="_blank">
+                <img src="src/imgs/gitIcon.png" alt="Git Icon" class="imglink">
+            </a>
+            <a href="https://www.linkedin.com/in/william-gore-625270200/" target="_blank">
+                <img src="src/imgs/linkedInIcon.png" alt="LinkedIn Icon" class="imglink">
+            </a>
+        </div>
+    </div>
+
+    <div class="sidebuttons" id="sidebuttons">
+        <button class = "button sectionButton" onclick="setHome()"><i class="fa-solid fa-house"style="font-size:20px;"></i></button>
+        <button class = "button sectionButton" onclick="setResume()"><i class="fa-solid fa-file" style="font-size:20px;"></i></button>
+        <button class = "button sectionButton" onclick="setProj()"><i class="fa-solid fa-screwdriver-wrench" style="font-size:20px;"></i></button>
+    </div>
 
 <script src="script.js"></script>
 </html>
