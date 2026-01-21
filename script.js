@@ -202,13 +202,16 @@ function setMobile() {
     document.getElementById("sidebuttons").style.flexDirection = "row"
     document.getElementById("sidebuttons").style.width = 100 + "vw"
     document.getElementById("sidebuttons").style.justifyContent = "center"
-    document.getElementById("sidebuttons").style.top = 45 + "%"
+    document.getElementById("sidebuttons").style.top = 50 + "%"
 
     document.getElementById("footer").style.paddingBottom = 90 + "px"
 
     document.getElementById("title").style.marginLeft = 10 + "px"
 
     document.getElementById("contentBox").style.marginLeft = 20 + "px"
+
+    document.getElementById("image").style.width = 100 + "px"
+    document.getElementById("title").style.alignItems = "center"
 
 }
 
@@ -260,11 +263,9 @@ function removeTitle(s, title, deleteTime) {
 
 ////////////////////////////////////////////////////////////
 
-//remove the !
-if(window.mobileCheck()) {
+if(!window.mobileCheck()) {
     setMobile()
 }
-
 
 setHome()
 
