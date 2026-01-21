@@ -281,7 +281,7 @@ function removeTitle(s, title, deleteTime) {
 
 ////////////////////////////////////////////////////////////
 
-if(!window.mobileCheck()) {
+if(window.mobileCheck()) {
     setMobile()
 }
 
