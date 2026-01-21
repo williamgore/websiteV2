@@ -92,49 +92,26 @@ function setResume() {
         </h2>
         
         <p>
-            September 2022 - Present <br />
+            September 2022 - December 2026 (Estimated) <br />
             Major: Computer Science <br/>
             Minor: Statistics
-        </p>
-        
-        <p>
-            Relevant Course Work <br/>
-            COMP 2080 - Analysis of Algorithms<br/>
-            COMP 2140 - Data Structures and Algorithms<br/>
-            COMP 2150 - Object Oriented Programming<br/>
-            COMP 2160 - Programming Practices<br/>
-            COMP 2280 - Intro to Computer Systems<br/>
-            
-            <br/>
-
-            <i>To be completed by December 2025</i><br/>
-            COMP 3010 - Distributed Systems<br/>
-            COMP 3020 - Human Computer Interaction<br/>
-            COMP 3380 - Databases Concepts and Usage<br/>
-        
-            <br/>
-
-            <i>To be completed by May 2026</i><br/>
-            COMP 3430 - Operating Systems <br/>
-            COMP 3350 - Software Engineering I <br/>
-            COMP 3580 - Application Security<br/>
         </p>
 
     </div>
 
     <h1>
-        <br/>Experience
+        <br/>Work Experience
     </h1>
 
 
     <div class = "body">
         <h2>
-            Tavern on King Edwrad, 1760 Sargent Ave — Bartender
+            Tavern on King Edward, 1760 Sargent Ave — Bartender
         </h2>
         
         <p>
             May 2025 - Present <br />
-            Bartender, working in a team, and being sociable.
+            Balanced multiple tasks simultaneously while also keeping an efficient workflow.
         </p>
 
     </div>
@@ -147,7 +124,7 @@ function setResume() {
         
         <p>
             June 2024 - August 2024 <br />
-            Summer job, lawn care, tree trimming, and truck driving.
+            Learned to manage a schedule to ensure tasks were completed on time across multiple sites.
         </p>
 
     </div>
@@ -159,9 +136,7 @@ function setResume() {
         
         <p>
             November 2022 - Present <br />
-            Preparing and serving drinks, waiting tables, interacting with customers, working as a 
-            team while under pressure to provide service quickly.
-            
+            Organized large groups of people to ensure efficient and effective service.
         </p>
 
     </div>
@@ -173,8 +148,22 @@ function setResume() {
         
         <p>
             March 2020 - September 2022 <br />
-            Providing efficient and excellent customer service, working alone, preparing food, keeping track of inventory, and keeping guest areas clean.
+            Worked independently and held myself accountable in absence of supervision.
+        </p>
 
+    </div>
+
+    <h1>
+    Skills & Interests
+    </h1>
+
+    <div class = "body">
+        <h2>
+            Technical Skills
+        </h2>
+        
+        <p>
+            Working with distributed systems, database querying, front end web design
         </p>
 
     </div>
