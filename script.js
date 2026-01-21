@@ -1,5 +1,6 @@
 function setHome() {
 
+    highlightButton("home")
     document.getElementById("contentHeader").innerHTML =`<h1>Who I am</h1>`
     document.getElementById("contentBody").innerHTML = `
     <p>
@@ -9,6 +10,8 @@ function setHome() {
 }
 
 function setProj() {
+
+    highlightButton("proj")
     document.getElementById("contentHeader").innerHTML =`<h1>Projects</h1>`
     document.getElementById("contentBody").innerHTML = `
 
@@ -73,6 +76,7 @@ function setProj() {
 }
 
 function setResume() {
+    highlightButton("resume")
     document.getElementById("contentHeader").innerHTML =`<h1>Resumé</h1>`
     document.getElementById("contentBody").innerHTML = `
     <div class="aboutMain">
@@ -215,6 +219,19 @@ function setMobile() {
 
 }
 
+function highlightButton(s) {
+    document.getElementById("home").style.backgroundColor = "#dfdfdf"
+    document.getElementById("resume").style.backgroundColor = "#dfdfdf"
+    document.getElementById("proj").style.backgroundColor = "#dfdfdf"
+
+    document.getElementById("home").style.color = "black"
+    document.getElementById("resume").style.color = "black"
+    document.getElementById("proj").style.color = "black"
+
+    document.getElementById(s).style.color = "white"
+    document.getElementById(s).style.backgroundColor = "#d16934"
+}
+
 function updateElement(newString, ID) {
     document.getElementById(ID).innerHTML = newString;
 }
@@ -263,7 +280,7 @@ function removeTitle(s, title, deleteTime) {
 
 ////////////////////////////////////////////////////////////
 
-if(!window.mobileCheck()) {
+if(window.mobileCheck()) {
     setMobile()
 }
 
