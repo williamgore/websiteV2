@@ -10,7 +10,7 @@ function setHome() {
             </p>
         </div>
     
-        <div class = "aboutImg" >
+        <div class = "aboutImg">
             <img src = "src/imgs/Science_Rendezvous_2025.jpg">
             <div class ="overlay">
                 <p>Science Rendezvous 2025</p>
@@ -205,7 +205,7 @@ function setResume() {
         <br />References
     </h2>
     <p>
-        For reference contact information, please contact me at williamgore241@gmail.com
+        For reference information, please contact me at williamgore241@gmail.com
     </p>
 
 </div>
