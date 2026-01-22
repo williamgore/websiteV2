@@ -84,11 +84,17 @@ body {
     border: 5px solid #c8c8c8;
 }
 
-.h2 {
-    color:black
+h2 {
+    color:black;
+    font-family: arial;
 }
 .h1 {
-    color:white
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contentBox {
@@ -128,4 +134,6 @@ a :hover{
 p {
     font-size: larger;
     line-height: 2;
+    font-family: arial;
+    margin-left: 20px;
 }

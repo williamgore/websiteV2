@@ -16,10 +16,6 @@ function setProj() {
     document.getElementById("contentBody").innerHTML = `
 
     <section class="aboutMain">
-        <h1>
-            my recent work 
-        </h1>
-
         
         <section class = "body">
 
@@ -31,8 +27,8 @@ function setProj() {
             
             
             <p>
-                    This website has gone through a number of iterations, all of which are available on my GitHub. Originally being purely html and CSS, I improved it iteratively to its current state. 
-                    Through this process I was able to improve my front-end abilities and improve my sense of style in web development.
+                This website has gone through a number of iterations, all of which are available on my GitHub. Originally being purely html and CSS, I improved it iteratively to its current state. 
+                Through this process I was able to improve my front-end abilities and improve my sense of style in web development.
             </p>
 
         </section>
