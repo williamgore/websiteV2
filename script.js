@@ -12,6 +12,9 @@ function setHome() {
     
         <div class = "aboutImg" >
             <img src = "src/imgs/Science_Rendezvous_2025.jpg">
+            <div class ="overlay">
+
+            </div>
         </div>
     </div>
 
@@ -19,12 +22,15 @@ function setHome() {
 
         <div class = "aboutImg" >
             <img src = "src/imgs/Hackathon2024.jpeg">
+            <div class ="overlay">
+            </div>
         </div>
 
         <div class = "aboutText">
             <p>
             hello
             </p>
+            
         </div>
     
     </div>

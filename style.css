@@ -104,8 +104,7 @@ h1 {
 .contentBox {
     margin-top: 150px;
     margin-left: 150px;
-    margin-right: 50px;
-    
+    margin-right: 100px;
 }
 
 .contentBody {
@@ -132,16 +131,40 @@ h1 {
 }
 
 .aboutText {
+    display: flex;
     flex-grow: 3;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutImg {
-    flex-grow: .5;
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    flex-grow: .25;
 }
 
+.aboutImg:hover .overlay{
+    opacity: .5;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% + 10px);
+    width:calc(100% + 10px);
+    opacity: 0;
+    transition: .5s ease;
+    background-color: whitesmoke;
+}
+
+
 .aboutImg img {
-    max-width: 500px;
-    height: auto;
+    height: 100%;
+    width:100%;
 
     border: 5px solid #c8c8c8;
 }
