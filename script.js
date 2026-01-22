@@ -6,7 +6,7 @@ function setHome() {
     <div class = "aboutSection">
         <div class = "aboutText">
             <p>
-            hello
+                In 2025 I volunteered at Science Rendezvous. I had the opportunity to teach children and their parents about graph theory and how it could be applied in the card game 'Spot it!'.
             </p>
         </div>
     
@@ -29,7 +29,7 @@ function setHome() {
 
         <div class = "aboutText">
             <p>
-            hello
+            In 2024 I participated in the DevHacks Hackathon. My team aimed to create a farming game using Unreal Engine, a technology that was new to all of us. It was a lot of fun and an excellent learning experience.
             </p>
             
         </div>

@@ -126,22 +126,25 @@ h1 {
 .aboutSection {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .aboutText {
     display: flex;
-    flex-grow: 3;
+    max-width: 50%;
+    flex-grow: 2;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .aboutImg {
     position: relative;
     width: 50%;
     max-width: 500px;
-    flex-grow: .25;
+    flex-grow: 1;
 }
 
 .aboutImg:hover .overlay{
@@ -166,7 +169,7 @@ h1 {
 
 
 .aboutImg img {
-    height: 100%;
+    height: auto;
     width:100%;
 
     border: 5px solid #c8c8c8;
