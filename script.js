@@ -164,6 +164,14 @@ function setResume() {
             Working with distributed systems, database querying, front end web design
         </p>
 
+        <h2>
+            Interests
+        </h2>
+        
+        <p>
+            Guitar, the outdoors, travelling, movies and games
+        </p>
+
     </div>
 
     <h2>
