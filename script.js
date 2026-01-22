@@ -136,7 +136,7 @@ function setResume() {
         
         <p>
             November 2022 - Present <br />
-            Organized large groups of people to ensure efficient and effective service.
+            Organizing large groups of people to ensure efficient and effective service.
         </p>
 
     </div>
