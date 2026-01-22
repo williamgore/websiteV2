@@ -6,8 +6,12 @@ body {
 }
 
 .headerimg {
-    background-color: whitesmoke;
+    background-color: #010101;
     height: 250px;
+}
+
+.header {
+    width: 100vw;  
 }
 
 .headerimg img {

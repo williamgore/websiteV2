@@ -46,7 +46,7 @@ function setProj() {
             
             <p>
                 My goal with this project was to replicate the original Disney FastPass system. The implementation is comprised of two main components, a client, and a server that interacts with a locally hosted database.
-                Upon receiving a request, through stdin, the client sends a message via TCP to the server with the guests information. The server then queries the database to validate the guest information and determine whether or not a 
+                Upon receiving a request, through stdin, the client sends a message via TCP to the server with the guest's information. The server then queries the database to validate the guest's information and determine whether or not a 
                 FastPass should be distributed. If a FastPass is allowed, the server will send an OK message back to the client. Upon successful distribution of the FastPass, the client sends another message to the server so the database can be updated.
             </p>
 
