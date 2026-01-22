@@ -3,9 +3,11 @@ function setHome() {
     highlightButton("home")
     document.getElementById("contentHeader").innerHTML =`<h1>Who I am</h1>`
     document.getElementById("contentBody").innerHTML = `
+    <div class = "body">
     <p>
-    
+    hello
     </p>
+    </div>
     `
 }
 
