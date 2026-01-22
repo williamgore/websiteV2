@@ -111,7 +111,7 @@ function setResume() {
         
         <p>
             May 2025 - Present <br />
-            Balanced multiple tasks simultaneously while also keeping an efficient workflow.
+            Balancing multiple tasks simultaneously while also keeping an efficient workflow.
         </p>
 
     </div>
