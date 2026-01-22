@@ -21,7 +21,7 @@ function setProj() {
         
         <section class = "body">
 
-            <a href="https://github.com/williamgore" target="_blank">
+            <a href="https://github.com/williamgore/websiteV2" target="_blank">
                 <h2>
                     This Website
                 </h2>
