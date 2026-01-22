@@ -3,10 +3,30 @@ function setHome() {
     highlightButton("home")
     document.getElementById("contentHeader").innerHTML =`<h1>Who I am</h1>`
     document.getElementById("contentBody").innerHTML = `
-    <div class = "body">
-    <p>
-    hello
-    </p>
+    <div class = "aboutSection">
+        <div class = "aboutText">
+            <p>
+            hello
+            </p>
+        </div>
+    
+        <div class = "aboutImg" >
+            <img src = "src/imgs/Science_Rendezvous_2025.jpg">
+        </div>
+    </div>
+
+    <div class = "aboutSection">
+
+        <div class = "aboutImg" >
+            <img src = "src/imgs/Hackathon2024.jpeg">
+        </div>
+
+        <div class = "aboutText">
+            <p>
+            hello
+            </p>
+        </div>
+    
     </div>
     `
 }

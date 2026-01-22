@@ -124,6 +124,28 @@ h1 {
     margin-right: 50px;
 }
 
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutText {
+    flex-grow: 3;
+}
+
+.aboutImg {
+    flex-grow: .5;
+}
+
+.aboutImg img {
+    max-width: 500px;
+    height: auto;
+
+    border: 5px solid #c8c8c8;
+}
+
 a{
     text-decoration: none;
     color:black;
