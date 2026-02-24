@@ -64,6 +64,23 @@ function setProj() {
 
         <section class = "body">
 
+            <a href="https://github.com/williamgore/devHacks2026" target="_blank">
+                <h2>
+                    CamCounter
+                </h2>
+            </a>
+            
+            <p>
+                This project was developed as part of the 2026 DevHacks Hackathon. It uses an open source computer vision library to keep track of capacity for a given building or room.
+                The software is composed of a webserver, a camera server, and a camera node. The webserver hosts a simple web interface through which a user can interact with the system.
+                The webserver communicates with the camera server to add camera nodes and intermittently update capacity data. This project was written by myself and a partner in the span
+                of 24 hours.
+            </p>
+
+        </section>
+
+        <section class = "body">
+
 
         <a href="https://github.com/williamgore/FastPass" target="_blank">
             <h2>
