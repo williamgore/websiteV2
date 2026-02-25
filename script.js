@@ -29,7 +29,7 @@ function setHome() {
 
         <div class = "aboutText">
             <p>
-            In 2024 I participated in the DevHacks Hackathon. My team aimed to create a farming game using Unreal Engine, a technology that was new to all of us. It was a lot of fun and an excellent learning experience.
+            In 2024 I participated in my first hackathon. My team aimed to create a farming game using Unreal Engine, a technology that was new to all of us. It was a lot of fun and an excellent learning experience.
             </p>
             
         </div>
